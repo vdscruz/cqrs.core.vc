@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>CQRS.Core.vs</PackageId>
+		<AssemblyVersion>7.0.0</AssemblyVersion>
+		<Authors>Vinicius Cruz</Authors>
+		<Company>vdscruz.com</Company>
+		<RepositoryUrl>https://github.com/vdscruz/cqrs.core.vc</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+</Project>
