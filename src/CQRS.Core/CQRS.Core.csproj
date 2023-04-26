@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<PackageId>CQRS.Core.vs</PackageId>
-		<AssemblyVersion>7.0.0</AssemblyVersion>
+		<Version>7.0.0</Version>
 		<Authors>Vinicius Cruz</Authors>
 		<Company>vdscruz.com</Company>
 		<RepositoryUrl>https://github.com/vdscruz/cqrs.core.vc</RepositoryUrl>
