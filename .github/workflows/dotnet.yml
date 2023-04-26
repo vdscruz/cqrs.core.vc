@@ -19,14 +19,10 @@ jobs:
         dotnet-version: 7.0.x
         
     - name: Restore dependencies
-      run: 
-        cd CQRS.Core
-        dotnet restore
+      run: dotnet restore .\CQRS.Core\CQRS.Core.csproj
       
     - name: Build
-      run: 
-        cd CQRS.Core
-        dotnet build --no-restore -c Release -o ../out
+      run: dotnet build .\CQRS.Core\CQRS.Core.csproj --no-restore -c Release -o out
       
     - name: Push on Nuget
       run: 
