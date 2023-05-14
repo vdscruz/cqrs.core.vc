@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 using Confluent.Kafka;
-using CQRS.Core.Events;
+using Vdscruz.CQRS.Core.Events;
 
-namespace CQRS.Core.Consumers;
+namespace Vdscruz.CQRS.Core.Consumers;
 
 public class KafkaEventConsumer: IEventConsumer
 {

@@ -3,13 +3,13 @@ using Amazon.Runtime;
 using Amazon.SQS;
 using Amazon.SQS.Model;
 using Confluent.Kafka;
-using CQRS.Core.Events;
-using CQRS.Core.Options;
+using Vdscruz.CQRS.Core.Events;
+using Vdscruz.CQRS.Core.Options;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace CQRS.Core.Consumers
+namespace Vdscruz.CQRS.Core.Consumers
 {
     public class AmazonSQSEventConsumer : IEventConsumer
     {

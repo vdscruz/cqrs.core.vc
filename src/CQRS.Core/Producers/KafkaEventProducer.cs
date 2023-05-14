@@ -1,9 +1,9 @@
 ﻿using Confluent.Kafka;
-using CQRS.Core.Events;
+using Vdscruz.CQRS.Core.Events;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
 
-namespace CQRS.Core.Producers;
+namespace Vdscruz.CQRS.Core.Producers;
 
 public class KafkaEventProducer : IEventProducer
 {

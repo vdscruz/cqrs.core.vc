@@ -1,6 +1,6 @@
-using CQRS.Core.Domain;
+using Vdscruz.CQRS.Core.Domain;
 
-namespace CQRS.Core.Handlers
+namespace Vdscruz.CQRS.Core.Handlers
 {
     public interface IEventSourcingHandler<T>
     {

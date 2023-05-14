@@ -1,6 +1,6 @@
-using CQRS.Core.Messages;
+using Vdscruz.CQRS.Core.Messages;
 
-namespace CQRS.Core.Commands
+namespace Vdscruz.CQRS.Core.Commands
 {
     public abstract class BaseCommand : Message
     {

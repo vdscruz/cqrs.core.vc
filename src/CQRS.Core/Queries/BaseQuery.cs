@@ -1,4 +1,4 @@
-namespace CQRS.Core.Queries
+namespace Vdscruz.CQRS.Core.Queries
 {
     public abstract class BaseQuery
     {

@@ -1,6 +1,6 @@
-using CQRS.Core.Events;
+using Vdscruz.CQRS.Core.Events;
 
-namespace CQRS.Core.Producers
+namespace Vdscruz.CQRS.Core.Producers
 {
     public interface IEventProducer
     {

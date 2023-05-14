@@ -1,4 +1,4 @@
-namespace CQRS.Core.Exceptions
+namespace Vdscruz.CQRS.Core.Exceptions
 {
     public class ConcurrencyException : Exception
     {

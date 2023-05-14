@@ -1,6 +1,6 @@
-using CQRS.Core.Commands;
+using Vdscruz.CQRS.Core.Commands;
 
-namespace CQRS.Core.Infrastructure
+namespace Vdscruz.CQRS.Core.Infrastructure
 {
     public interface ICommandDispatcher
     {

@@ -1,6 +1,6 @@
-using CQRS.Core.Messages;
+using Vdscruz.CQRS.Core.Messages;
 
-namespace CQRS.Core.Events
+namespace Vdscruz.CQRS.Core.Events
 {
     public abstract class BaseEvent : Message
     {

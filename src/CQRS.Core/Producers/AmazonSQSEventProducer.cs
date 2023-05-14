@@ -1,12 +1,12 @@
 ﻿using Amazon;
 using Amazon.SQS;
 using Amazon.SQS.Model;
-using CQRS.Core.Events;
-using CQRS.Core.Options;
+using Vdscruz.CQRS.Core.Events;
+using Vdscruz.CQRS.Core.Options;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
 
-namespace CQRS.Core.Producers;
+namespace Vdscruz.CQRS.Core.Producers;
 
 public class AmazonSQSEventProducer : IEventProducer
 {

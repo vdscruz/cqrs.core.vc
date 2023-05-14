@@ -1,6 +1,6 @@
-using CQRS.Core.Queries;
+using Vdscruz.CQRS.Core.Queries;
 
-namespace CQRS.Core.Infrastructure
+namespace Vdscruz.CQRS.Core.Infrastructure
 {
     public interface IQueryDispatcher<TEntity>
     {

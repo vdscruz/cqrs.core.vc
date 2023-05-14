@@ -1,6 +1,6 @@
-using CQRS.Core.Events;
+using Vdscruz.CQRS.Core.Events;
 
-namespace CQRS.Core.Domain
+namespace Vdscruz.CQRS.Core.Domain
 {
     public interface IEventStoreRepository
     {

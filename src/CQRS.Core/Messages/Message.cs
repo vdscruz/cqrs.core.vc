@@ -1,4 +1,4 @@
-namespace CQRS.Core.Messages
+namespace Vdscruz.CQRS.Core.Messages
 {
     public abstract class Message
     {
